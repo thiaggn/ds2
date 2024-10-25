@@ -8,7 +8,7 @@ void swap(int arr[], int i, int j) {
 }
 
 void print_arr(int *arr, int size) {
-    int i = 1;
+    int i = 0;
 
     while (i < size) {
         printf("%d ", arr[i]);
