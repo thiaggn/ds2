@@ -3,8 +3,8 @@
 
 
 int main() {
-    int arr[] = {40, 4, 73, 31, 15, 89, 91, 10, 100, 23, 4923, 513, 923, 43, 23874, 934, 28, 2390, 2, 1, 0, 0};
-    merge_sort(arr, 22);
-    print_arr(arr, 22);
-    return 0;
+    int arr[10] = {2, 10, 4, 7, 1, 8, 9, 3, 6, 5};
+    print_arr(arr, 10);
+    heap_sort(arr, 10);
+    print_arr(arr, 10);
 }
